@@ -1,0 +1,6 @@
+/ansible/
+/venv/
+.flaskenv
+config.py
+/__pycache__/
+app/__pycache__

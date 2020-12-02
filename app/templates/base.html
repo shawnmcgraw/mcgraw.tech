@@ -6,14 +6,14 @@
     {% if title %}
         <title>{{ title }} - McGraw.Tech</title>
     {% else %}
-        <title>Welcom to McGraw.Tech</title>
+        <title>Welcome to McGraw.Tech</title>
     {% endif %}
 </head>
 <body>
     <div>
         McGraw.Tech: 
-        <a href="/index">Home</a>
-        <a href="/login">Login</a>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('login') }}">Login</a>
     </div>
     <hr>
 

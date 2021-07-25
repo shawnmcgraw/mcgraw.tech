@@ -1,9 +1,0 @@
-/ansible/
-/venv/
-.flaskenv
-config.py
-/__pycache__/
-app/__pycache__
-.idea
-app.db
-.vagrant/

@@ -6,3 +6,4 @@ config.py
 app/__pycache__
 .idea
 app.db
+.vagrant/
